@@ -1,0 +1,60 @@
+*  {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+.main-container{
+    background-image: url('https://img.freepik.com/premium-photo/cats-movie-theater-wearing-sunglasses_81048-630.jpg?w=826');
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+}
+.signup-container {
+    height: 400px;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(201, 28%, 70%, 0.6);
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+
+.signup-title {
+    font-size: 2.5em;
+}
+
+form  {
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-container label {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.input-container input  {
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.signin-button {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}

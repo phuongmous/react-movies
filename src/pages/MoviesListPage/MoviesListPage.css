@@ -1,0 +1,43 @@
+.movie-container {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movie-poster {
+    height: 700px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.movie-card {
+    position: relative;
+    padding: 30px;
+}
+
+.movie-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.movie-info-content  {
+    background-color: hsla(210, 17%, 98%, 0.6);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    padding: 0.5px;
+}
+
+.movie-link {
+    color:black;
+}

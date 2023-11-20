@@ -1,0 +1,34 @@
+.actor-list {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.actor-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.actor-poster {
+    height: 700px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.actor-card {
+    position: relative;
+    padding: 30px;
+    align-items: center;
+}
+
+.actor-info {
+    position: absolute;
+    bottom: 100px;
+    background-color: hsla(210, 17%, 98%, 0.6);
+    text-align: center;
+    left: 25%;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 30px;
+    width: 50%;
+}
